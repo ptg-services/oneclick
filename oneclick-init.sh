@@ -1,4 +1,3 @@
-initialize() {
     echo "Initializing oneclick"
     ONECLICK_DIR=~/.oneclick
 
@@ -12,4 +11,3 @@ initialize() {
         git clone https://github.intuit.com/PTG/oneclick.git $ONECLICK_DIR
         echo "Successfully cloned"
     fi
-}
