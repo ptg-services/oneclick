@@ -1,4 +1,4 @@
-
+#!/usr/bin/env bash
 echo "Initializing oneclick"
 ONECLICK_DIR=~/.oneclick
 
