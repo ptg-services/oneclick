@@ -9,6 +9,6 @@ then
     git pull
 else
     mkdir -p $ONECLICK_DIR
-    git clone https://github.intuit.com/PTG/oneclick.git $ONECLICK_DIR
+    git clone git@github.intuit.com:PTG/oneclick.git $ONECLICK_DIR
     echo "Successfully cloned"
 fi
